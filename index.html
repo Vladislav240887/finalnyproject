@@ -4,9 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- часть влада -->
+    <header>
+     
+        
+             <nav>
+                   <div class="logo">
+                <img src="Logos/Logo.png">
+            </div>
+            <div class="burger" onclick="toggleBurgerMenu()">
+                <img src="Logos/burger.png" alt="Menu" />
+            </div>
+            <ul class="nav-list">
+                <li>Pricing</li>
+                <li>Use Cases</li>
+                <li>Book a Demo</li>
+            </ul>
+            <div class="button-text">
+                <span style="white-space: nowrap;">Sign In</span>
+                <button  class="btn ltn-primary">Contact Sales</button>
+            </div>
+             <div class="mobile-menu" id="mobileMenu">
+                <span class="close-btn" onclick="toggleBurgerMenu()">×</span>
+                    <ul>
+                        <li>Pricing</li>
+                        <li>Use Cases</li>
+                        <li>Book a Demo</li>
+                        <li>Sign In</li>
+                        <li><button class="btn ltn-primary">Contact Sales</button></li>
+                    </ul>
+            </div>
+        </nav>
+        
+       </div>
+        
+    </header>
+    <section>
+        <div class="position">
+            <div class="gen_block">
+                <div class="text">
+                    <h1>How to do a Website Audit to <br>
+                        Improve SEO & Conversions</h1>
+                       <p>Usability auditing with the Plerdy tool is a comprehensive expert assessment of your website <br>
+                            based on a profound study of user behavior registered on it. Plerdy will provide you with <br>
+                             crucial data based on which you will be able to run an efficient usability audit of your website, <br>
+                              identify and fix SEO issues, and subsequently lead it to higher positions in search.</p>
+                              <p class="grey">Thus, you'll compile a list of flaws in 
+                                your website interface,  navigation, <br> and conversion path that can 
+                                eventually affect its micro and macro conversion rates.</p>
+                </div>
+                <button class="btn ntn-primary">Run the Plerdy tool</button>
+                <div class="bottom">
+                    <p>Trusted by some of the world's largest enterprises</p>
+                    <div class="logos">
+                        <img src="Logos/softserve.png" alt="">
+                        <img src="Logos/subaru.png" alt="">
+                        <img src="Logos/image 86 (Traced).png" alt="">
+                        <img src="Logos/Prom.png" alt="">
+                        <img src="Logos/ukrposhta.png" alt="">
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="possition">
+                        
+                            <img class="big" src="Logos/linkedin-sales-solutions-wS73LE0GnKs-unsplash 1.png" alt="">
+                        
+                        <div class="mini-pics">
+                             <img class="pic1" src="Logos/Frame 7262.png" alt="">
+                            <img class="pic2" src="Logos/Frame 7263.png" alt="">
+                            <img class="pic3" src="Logos/96.png" alt="">
+                        
+                        </div>
+                           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="myBlock" class="block">
+        <div class="content">
+           
+    <div class="content">
+        <span class="close">
+            <img src="https://cdn-icons-png.flaticon.com/512/61/61155.png" alt="Close" width="20">
+        </span>
+        <div class="pic">
+            <img src="Logos/Pic.png" alt="">
+        </div>
+        <div class="side">
+           <div class="text2">
+                <h2>How to do a Website Audit to Improve SEO & Conversions</h2>
+                <p class="subtext">You will get an SMS with a link to the webinar</p>
+           </div>
+            <label class="inputs">
+               <form id="form">
+                 <h5>Name</h5>
+                <input type="text" class="name" id="name" placeholder="Boris Johnson">
+                
+                <label class="lable"><h5>Lable</h5></label>
+                <div class="phone_input">
+                    
+                    <select id="select" class="select">
+                        <option value="+380">+380</option>
+                        <option value="+48">+48</option>
+                        <option value="+1">+1</option>
+                        <option value="+7">+7</option>
+                    </select>
+                    <input class="phone" id="phone" type="tel" placeholder="XX XXX XXXX">
+                </div>
+               
+                <div class="buttons">
+                    <button type="button" class="qtn support">Support</button>
+                    <button type="button" class="qtn sales">Contact Sales</button>
+                </div>
+                </form>
+                <div class="privacy">
+                    <input type="radio" class="radio" id="radio">
+                    By sending up, you agree to our Conditions and Privacy Policy.
+                </div>
+            </label>
+        </div>
+    </div>
+        
+    
+    </div>
+    
     <script src="script.js"></script>
-    <script src="swiper.js"></script>
+    <script src="burger.js"></script>
+     <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js"></script>
+    <script src="error.js"></script>
+   
 </body>
 </html>
